@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: blanchedalmond;
+}
+
+header {
+  padding: 1rem;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header img {
+  width: 8rem;
+  border: none;
+  border-radius: 50%;
+  box-shadow: .2rem .2rem .5rem gainsboro;
+}
+
+.tituloPrincipal {
+  background-color: cadetblue;
+}
+
+ul {
+  padding: 0.3rem;
+  display: flex;
+}
+
+li {
+  width:5rem;
+  margin: .2rem;
+  padding: .1rem;
+  border: none;
+  border-radius: 1rem .3rem 1rem .3rem;
+  background-color: black;
+  box-shadow: .1rem .1rem .1rem bisque;
+  text-align: center;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+li:hover {
+  background-color: rgb(110, 81, 81);
+  box-shadow: .1rem .1rem .1rem rgb(116, 76, 27);
+}
+
+a:hover {
+  color: aliceblue;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15rem;
+  background-color: gray;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15rem;
+  border: 1px solid red;
+  background-color: aquamarine;
+}
+
+.esquerda, .centro, .direita {
+  margin: 1rem;
+  text-align: justify;
+  width: 32%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  background-color: brown;
+}
